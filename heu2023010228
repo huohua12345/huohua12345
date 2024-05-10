@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<math.h>
+int main(void){
+    int a,b;
+	scanf("%d,%d",&a,&b);
+	printf("\na+b=%d \na-b=%d \na*b=%d \na/b=%d",a+b,a-b,a*b,a/b);   
+	getchar();
+	return 0;	
+}
